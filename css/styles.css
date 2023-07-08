@@ -60,7 +60,13 @@ nav > ul{
 
 nav li{
     list-style: none;
-    margin-right: 50px;
+    padding: 18px 50px;
+    border-radius: 5px;
+
+}
+
+nav li:hover{
+    background-color: #FD6E0A;   
 }
 
 nav a{
