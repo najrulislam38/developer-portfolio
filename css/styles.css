@@ -27,8 +27,13 @@ section{
     border-radius: 5px;
     color: #fff;
     font-size: 20px;
+    cursor: pointer;
 }
 
+.orange-btn:hover{
+    background-color: #fff;
+    color: #FD6E0A;
+}
 /* nav style */
 nav{
     display: flex;
@@ -112,6 +117,7 @@ nav a{
     border-radius: 5px;
     outline: none;
     transition: 0.3s ease-in-out;
+    cursor: pointer;
 }
 .btn-contact:hover{
     color: #fff;
@@ -210,6 +216,41 @@ nav a{
     margin-bottom: 50px;
 }
 
+.resume-header-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 30px 0;
+}
+
 .resume-wrapper{
     width: 50%;
+}
+
+.resume-title{
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.resume-institute{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.resume-description{
+    color: #757575;
+    line-height: 28px;
+}
+
+.resume-wrapper hr{
+    margin: 30px 0px;
+}
+
+.download-cv{
+    margin: 0 auto 130px;
+    text-align: center;
 }
