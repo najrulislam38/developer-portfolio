@@ -198,3 +198,18 @@ nav a{
     color: #757575;
     font-weight: 400;
 }
+
+/* resume section styles */
+
+.inner-resume{
+    display: flex;
+    gap: 70px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.resume-wrapper{
+    width: 50%;
+}
